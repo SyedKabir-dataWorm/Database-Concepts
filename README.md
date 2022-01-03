@@ -1,7 +1,7 @@
 # Oracle-Database-Including-conceptual-normalisation-logical-model-
 Creating a relational database based on customer's requirements. The dtails of customer requirements and tasks are mentioned below:
-
-Conceptual Model - Monash Cabins (MC) : build a conceptual model (Entity Relationship Diagram)
+**
+Conceptual Model - Monash Cabins (MC)** : build a conceptual model (Entity Relationship Diagram)
 
 Monash Cabins is a chain of resorts (holiday destinations) located around Australia. At each of these resorts, MC provides cabin-based accommodation for its guests – any given resort consists of several independent cabins. A resort is located in a particular town. MC maintains details of points of interest (POI) in the local area that guests might wish to visit. Each POI is associated with only one town.
 
@@ -40,8 +40,8 @@ Using LucidChart, prepare a FULL conceptual model (Entity Relationship Diagram) 
 ○ all relationships. Cardinality (min and max) and connectivity for all relationships must be shown on the diagram.
 ● Surrogate keys must not be added to this model.
 
-
-Logical Model - Monash Cabins (MC) – build a logical model
+**
+Logical Model - Monash Cabins (MC)** – build a logical model
 
 This task continues the work you have started in Conceptual model by refining/extending the model you developed and implementing it as a set of tables under your Monash Oracle database account.
 
