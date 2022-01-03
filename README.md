@@ -51,7 +51,7 @@ Monash Cabins management have provided the following further information:
 
 When guests vacate a cabin, MC use contract cleaners to clean the cabin. MC maintain, for each resort, a record of the cleaning activity for its cabins (a small sample of this is shown below):
 
-Document A : See document_A attachments
+Document A : See document_A_B_C attachments
 
  
 A cleaning contractor is assigned a unique contractor number when first taking up work with MC. 
@@ -62,7 +62,7 @@ Contract cleaners may shift between these two modes depending on what suits them
 MC maintain a record of the contract history for all cleaners (a small sample of a report of this data is shown below):
 
 
-Document B & C : See document_B_C attachments
+Document B & C : See document_A_B_C attachments
  
 
 You are free to make assumptions if needed however they must align with the details mentioned above 
