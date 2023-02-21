@@ -1,9 +1,11 @@
 # Oracle-Database-Including-conceptual-normalisation-logical-model-
-Creating a relational database based on customer's requirements. The dtails of customer requirements and tasks are mentioned below:
+Creating a relational database based on customer's requirements. The details of customer requirements and tasks are mentioned below:
 **
-Conceptual Model - Monash Cabins (MC)** : build a conceptual model (Entity Relationship Diagram)
+Conceptual Model -  build a conceptual model (Entity Relationship Diagram)
 
-Monash Cabins is a chain of resorts (holiday destinations) located around Australia. At each of these resorts, MC provides cabin-based accommodation for its guests – any given resort consists of several independent cabins. A resort is located in a particular town. MC maintains details of points of interest (POI) in the local area that guests might wish to visit. Each POI is associated with only one town.
+Monash Cabins is a chain of resorts (holiday destinations) located around Australia. At each of these resorts, MC provides cabin-based accommodation for its guests 
+any given resort consists of several independent cabins. A resort is located in a particular town. MC maintains details of points of interest (POI) in the local 
+area that guests might wish to visit. Each POI is associated with only one town.
 
 For each town in which a resort or point of interest is located MC records the town name, the state the town is located in, the latitude and longitude of the centre of the town, the average summer and winter day temperatures and its population. MC only records details of towns which have a resort or a point of interest. MC does not record a town's postcode since they are only interested in it as a location, not as a postal location.
 
