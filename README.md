@@ -1,7 +1,9 @@
 # Database-Concepts
 
 Oracle-Database-Including-conceptual-normalisation-logical-model-
-Creating a relational database based on customer's requirements. The details of customer requirements and tasks are mentioned below: ** Conceptual Model - build a conceptual model (Entity Relationship Diagram) from the following business descriptions
+Creating a relational database based on customer's requirements. The details of customer requirements and tasks are mentioned below: 
+
+**Conceptual Model** - build a conceptual model (Entity Relationship Diagram) from the following business descriptions
 
 Monash Cabins is a chain of resorts (holiday destinations) located around Australia. At each of these resorts, MC provides cabin-based accommodation for its guests any given resort consists of several independent cabins. A resort is located in a particular town. MC maintains details of points of interest (POI) in the local area that guests might wish to visit. Each POI is associated with only one town.
 
@@ -21,15 +23,15 @@ The rates charged for a cabin depend on the cabin itself (some cabins have speci
 
 Make assumptions if needed however they must align with the details mentioned above.
 
-TASKS
+**TASKS**
 
-Draw Conceptual model
+- Draw a Conceptual model
 
-Task to complete:
+- Task to complete:
 
 Using LucidChart, prepare a FULL conceptual model (Entity Relationship Diagram) using crow’s foot notation for Monash Cabins (MC) described above. ● For this FULL conceptual model, include: ○ identifiers (keys) for each entity ○ all required attributes, and ○ all relationships. Cardinality (min and max) and connectivity for all relationships must be shown on the diagram. ● Surrogate keys must not be added to this model.
 
-** Logical Model - Monash Cabins (MC)** – build a logical model
+**Logical Model - Monash Cabins (MC)** – build a logical model
 
 Logical model's brief must be read in conjunction with the conceptual model brief.
 
@@ -45,7 +47,7 @@ Document B & C : See document_A_B_C attachments
 
 Feel free to make assumptions if needed however they must align with the details mentioned above
 
-Task to complete:
+- Task to complete:
 
 Perform normalisation to 3NF for the data depicted in the sample MC reports. You only need to do a single normalisation for the cleaner contract history (documents B & C)- two documents have been provided so you are aware of possible variations in the data.
 
