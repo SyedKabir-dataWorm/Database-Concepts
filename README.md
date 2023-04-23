@@ -1,6 +1,14 @@
 # Database-Concepts
 
-Oracle-Database-Including-conceptual-normalisation-logical-model-
+**Files Description of This Repo**
+- document_A.png & document_B_C.png : Two images to analyse business requirements. Details are available in this README later. 
+- mc_conceptual.pdf : ERD diagram for conceptual modelling.
+- mc_conceptual_final.pdf : ERD diagram for logical modelling.
+- mc_normalisation.pdf : Step by step normalisation process following business requirements.
+- mc_schema.sql : SQL commands to make various tables and relationships based on normalisation and logical model.
+
+**Detailed Description of the Tasks and Requirements**
+
 Creating a relational database based on customer's requirements. The details of customer requirements and tasks are mentioned below: 
 
 **Conceptual Model** - build a conceptual model (Entity Relationship Diagram) from the following business descriptions
