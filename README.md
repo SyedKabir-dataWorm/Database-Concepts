@@ -39,24 +39,28 @@ Monash Cabins management have provided the following further information:
 
 When guests vacate a cabin, MC use contract cleaners to clean the cabin. MC maintain, for each resort, a record of the cleaning activity for its cabins (a small sample of this is shown below):
 
-Document A : See document_A_B_C attachments
+Document A :
+![alt text](https://github.com/SyedKabir-dataWorm/Database-Concepts/blob/main/document_A.png)
 
 A cleaning contractor is assigned a unique contractor number when first taking up work with MC. Contract cleaners may work as casual staff or fixed term staff. Fixed-term staff sign a contract to clean for a set period of time eg. 12 months. Casual cleaners are not locked into any fixed period to clean, they are available on a weekly basis as work is available or suits them. Casual cleaners are contacted when work is available to clean a particular cabin and may accept or reject the job. Contract cleaners may shift between these two modes depending on what suits them better. MC maintain a record of the contract history for all cleaners (a small sample of a report of this data is shown below):
 
 Document B & C : See document_A_B_C attachments
 
+![alt text](https://github.com/SyedKabir-dataWorm/Database-Concepts/blob/main/document_B_C.png)
+
 Feel free to make assumptions if needed however they must align with the details mentioned above
 
 - Task to complete:
 
-Perform normalisation to 3NF for the data depicted in the sample MC reports. You only need to do a single normalisation for the cleaner contract history (documents B & C)- two documents have been provided so you are aware of possible variations in the data.
+1. Perform normalisation to 3NF for the data depicted in the sample MC reports. You only need to do a single normalisation for the cleaner contract history (documents B & C)- two documents have been provided so you are aware of possible variations in the data.
 
 During normalisation, you must: • Not add surrogate keys. • Include all attributes (you must not remove any attribute as derivable) • Clearly show UNF, 1NF, 2NF and 3NF. • Clearly identify the Primary Key in all relations. • Clearly identify all dependencies at the various normalisation stages (Partial at 1NF, Transitive at 2NF and Full at 3NF). If none exist you must note this by stating: No partial dependencies present and/or No transitive dependencies present • If required, carry out attribute synthesis.
 
 The attribute names used in your normalisation and those on your subsequent logical model must be the same.
 
-Based on your task-1 conceptual model, your reading of this case study and the normalisations you carried out in step 1 above, prepare a logical level design for the Monash Cabins database. • The logical model must be drawn using the Oracle Data Modeler. The information engineering or Crow’s foot notation must be used in drawing the model. Your logical model must not show datatypes. • All relations depicted on this model must be in 3NF • You are required to add at least one surrogate key to your design (you are free to select the most appropriate relation to make this change in)
+2. Based on task-1 about conceptual model and the normalisations carried out in step 1 above, prepare a logical level design for the Monash Cabins database. • The logical model must be drawn using the Oracle Data Modeler. The information engineering or Crow’s foot notation must be used in drawing the model. Your logical model must not show datatypes. • All relations depicted on this model must be in 3NF • You are required to add at least one surrogate key to your design (you are free to select the most appropriate relation to make this change in)
 
 you may add more if you wish • All attributes must be commented in the database (ie. the comments must be part of the table structure, not simply comments in the schema file). • Check clauses/look up tables must be applied to attributes where appropriate. • You MUST include the legend as part of your model. • Note that your GIT repository must clearly indicate your development history with multiple commits/pushes as you work on your model.
-Generate the schema for the database in Oracle Data Modeler and use the schema to create the database in your Oracle account. The only edits you are permitted to carry out to the generated schema file is to add header comment/s containing your details (student name/id) and the commands to turn on and off spool/echo for your script. Ensure you: • Capture the output of the run of your schema statements using the spool command. • Name the schema file as mc_schema.sql.
+
+3. Generate the schema for the database in Oracle Data Modeler and use the schema to create the database in your Oracle account. The only edits you are permitted to carry out to the generated schema file is to add header comment/s containing your details (student name/id) and the commands to turn on and off spool/echo for your script. Ensure you: • Capture the output of the run of your schema statements using the spool command. • Name the schema file as mc_schema.sql.
 
