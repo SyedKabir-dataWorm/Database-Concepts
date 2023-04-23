@@ -44,7 +44,7 @@ Document A :
 
 A cleaning contractor is assigned a unique contractor number when first taking up work with MC. Contract cleaners may work as casual staff or fixed term staff. Fixed-term staff sign a contract to clean for a set period of time eg. 12 months. Casual cleaners are not locked into any fixed period to clean, they are available on a weekly basis as work is available or suits them. Casual cleaners are contacted when work is available to clean a particular cabin and may accept or reject the job. Contract cleaners may shift between these two modes depending on what suits them better. MC maintain a record of the contract history for all cleaners (a small sample of a report of this data is shown below):
 
-Document B & C : See document_A_B_C attachments
+Document B & C :
 
 ![alt text](https://github.com/SyedKabir-dataWorm/Database-Concepts/blob/main/document_B_C.png)
 
